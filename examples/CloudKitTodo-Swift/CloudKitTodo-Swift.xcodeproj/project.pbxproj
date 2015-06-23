@@ -13,6 +13,8 @@
 		3C0826DA1B3A0849004D22BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0826D91B3A0849004D22BA /* Images.xcassets */; };
 		3C0826DD1B3A0849004D22BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0826DB1B3A0849004D22BA /* LaunchScreen.xib */; };
 		3C0826E91B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0826E81B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift */; };
+		B617CF62171B86F9F0D3FF4E /* Pods_CloudKitTodo_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9968E3FD651591D04D811E42 /* Pods_CloudKitTodo_SwiftTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C6940ECB6A2E1EF7D00D7F25 /* Pods_CloudKitTodo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49958AF53E1C9FD8DF327CBE /* Pods_CloudKitTodo_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0582E4BEB2E7BD34D40F415C /* Pods-CloudKitTodo-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-SwiftTests/Pods-CloudKitTodo-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C0826CD1B3A0849004D22BA /* CloudKitTodo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudKitTodo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0826D11B3A0849004D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0826D21B3A0849004D22BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		3C0826E21B3A0849004D22BA /* CloudKitTodo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CloudKitTodo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0826E71B3A0849004D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0826E81B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitTodo_SwiftTests.swift; sourceTree = "<group>"; };
+		49958AF53E1C9FD8DF327CBE /* Pods_CloudKitTodo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudKitTodo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637C2A4F5ED6A5F1561C0267 /* Pods-CloudKitTodo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		8EDB3014C06D4B982575B092 /* Pods-CloudKitTodo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9968E3FD651591D04D811E42 /* Pods_CloudKitTodo_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudKitTodo_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE7473F24460A1AAF8C6665 /* Pods-CloudKitTodo-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-SwiftTests/Pods-CloudKitTodo-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6940ECB6A2E1EF7D00D7F25 /* Pods_CloudKitTodo_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B617CF62171B86F9F0D3FF4E /* Pods_CloudKitTodo_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				3C0826CF1B3A0849004D22BA /* CloudKitTodo-Swift */,
 				3C0826E51B3A0849004D22BA /* CloudKitTodo-SwiftTests */,
 				3C0826CE1B3A0849004D22BA /* Products */,
+				D469A6A265C3E72FCF24B6DF /* Pods */,
+				F7069712392CCB724F077B43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +124,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D469A6A265C3E72FCF24B6DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB3014C06D4B982575B092 /* Pods-CloudKitTodo-Swift.debug.xcconfig */,
+				637C2A4F5ED6A5F1561C0267 /* Pods-CloudKitTodo-Swift.release.xcconfig */,
+				0582E4BEB2E7BD34D40F415C /* Pods-CloudKitTodo-SwiftTests.debug.xcconfig */,
+				DBE7473F24460A1AAF8C6665 /* Pods-CloudKitTodo-SwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7069712392CCB724F077B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49958AF53E1C9FD8DF327CBE /* Pods_CloudKitTodo_Swift.framework */,
+				9968E3FD651591D04D811E42 /* Pods_CloudKitTodo_SwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0826EC1B3A0849004D22BA /* Build configuration list for PBXNativeTarget "CloudKitTodo-Swift" */;
 			buildPhases = (
+				2806F4398000C7951DD34C20 /* Check Pods Manifest.lock */,
 				3C0826C91B3A0849004D22BA /* Sources */,
 				3C0826CA1B3A0849004D22BA /* Frameworks */,
 				3C0826CB1B3A0849004D22BA /* Resources */,
+				B7C66E5318B14AB133D81E2C /* Embed Pods Frameworks */,
+				A8E332FE6BB7443BBE16B9B3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0826EF1B3A0849004D22BA /* Build configuration list for PBXNativeTarget "CloudKitTodo-SwiftTests" */;
 			buildPhases = (
+				DA5C8662729B0E8CCF4FB389 /* Check Pods Manifest.lock */,
 				3C0826DE1B3A0849004D22BA /* Sources */,
 				3C0826DF1B3A0849004D22BA /* Frameworks */,
 				3C0826E01B3A0849004D22BA /* Resources */,
+				60A601C345D833C80350D233 /* Embed Pods Frameworks */,
+				008115AD845D3C1987973096 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +244,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		008115AD845D3C1987973096 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitTodo-SwiftTests/Pods-CloudKitTodo-SwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2806F4398000C7951DD34C20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60A601C345D833C80350D233 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitTodo-SwiftTests/Pods-CloudKitTodo-SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E332FE6BB7443BBE16B9B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C66E5318B14AB133D81E2C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5C8662729B0E8CCF4FB389 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C0826C91B3A0849004D22BA /* Sources */ = {
@@ -340,6 +471,7 @@
 		};
 		3C0826ED1B3A0849004D22BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDB3014C06D4B982575B092 /* Pods-CloudKitTodo-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CloudKitTodo-Swift/Info.plist";
@@ -350,6 +482,7 @@
 		};
 		3C0826EE1B3A0849004D22BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637C2A4F5ED6A5F1561C0267 /* Pods-CloudKitTodo-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CloudKitTodo-Swift/Info.plist";
@@ -360,6 +493,7 @@
 		};
 		3C0826F01B3A0849004D22BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0582E4BEB2E7BD34D40F415C /* Pods-CloudKitTodo-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -379,6 +513,7 @@
 		};
 		3C0826F11B3A0849004D22BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE7473F24460A1AAF8C6665 /* Pods-CloudKitTodo-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -411,6 +546,7 @@
 				3C0826EE1B3A0849004D22BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0826EF1B3A0849004D22BA /* Build configuration list for PBXNativeTarget "CloudKitTodo-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +555,7 @@
 				3C0826F11B3A0849004D22BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

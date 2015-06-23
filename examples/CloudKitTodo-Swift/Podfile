@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+use_frameworks!
+
+platform :ios, "8.0"
+
+target 'CloudKitTodo-Swift' do
+	pod "YapDatabaseExtensions/All", :path => "../../"
+	pod 'Reachability', '3.2'
+end
+
+target 'CloudKitTodo-SwiftTests' do
+	pod "YapDatabaseExtensions/All", :path => "../../"
+end
+

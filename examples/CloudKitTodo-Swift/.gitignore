@@ -1,0 +1,21 @@
+# General
+*.swp
+*.swo
+*.rbo
+*.gem
+*.o
+.DS_Store
+.rbenv-version
+.rbx/
+xcuserdata
+project.xcworkspace
+DerivedData
+/concatenated.*
+
+# IDEs
+*.xccheckout
+.idea/
+
+# CocoaPods
+Podfile.lock
+Pods/
