@@ -13,6 +13,10 @@
 		3C0826DA1B3A0849004D22BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0826D91B3A0849004D22BA /* Images.xcassets */; };
 		3C0826DD1B3A0849004D22BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0826DB1B3A0849004D22BA /* LaunchScreen.xib */; };
 		3C0826E91B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0826E81B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift */; };
+		3CE254F41B3A184B00345C5C /* MyTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE254F31B3A184B00345C5C /* MyTodo.swift */; };
+		3CE254F91B3B0B2C00345C5C /* MyDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE254F81B3B0B2C00345C5C /* MyDatabaseObject.m */; };
+		3CE254FA1B3B0B2C00345C5C /* MyDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE254F81B3B0B2C00345C5C /* MyDatabaseObject.m */; };
+		3CE254FB1B3B0B3A00345C5C /* MyTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE254F31B3A184B00345C5C /* MyTodo.swift */; };
 		B617CF62171B86F9F0D3FF4E /* Pods_CloudKitTodo_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9968E3FD651591D04D811E42 /* Pods_CloudKitTodo_SwiftTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C6940ECB6A2E1EF7D00D7F25 /* Pods_CloudKitTodo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49958AF53E1C9FD8DF327CBE /* Pods_CloudKitTodo_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -39,6 +43,11 @@
 		3C0826E21B3A0849004D22BA /* CloudKitTodo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CloudKitTodo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0826E71B3A0849004D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0826E81B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitTodo_SwiftTests.swift; sourceTree = "<group>"; };
+		3CE254F31B3A184B00345C5C /* MyTodo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTodo.swift; sourceTree = "<group>"; };
+		3CE254F51B3B0B2B00345C5C /* CloudKitTodo-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudKitTodo-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CE254F61B3B0B2B00345C5C /* CloudKitTodo-SwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudKitTodo-SwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CE254F71B3B0B2C00345C5C /* MyDatabaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatabaseObject.h; sourceTree = "<group>"; };
+		3CE254F81B3B0B2C00345C5C /* MyDatabaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDatabaseObject.m; sourceTree = "<group>"; };
 		49958AF53E1C9FD8DF327CBE /* Pods_CloudKitTodo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudKitTodo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		637C2A4F5ED6A5F1561C0267 /* Pods-CloudKitTodo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		8EDB3014C06D4B982575B092 /* Pods-CloudKitTodo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudKitTodo-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudKitTodo-Swift/Pods-CloudKitTodo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,11 +98,14 @@
 		3C0826CF1B3A0849004D22BA /* CloudKitTodo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				3CE254F21B3A181400345C5C /* Model */,
 				3C0826D21B3A0849004D22BA /* AppDelegate.swift */,
 				3C0826D41B3A0849004D22BA /* ViewController.swift */,
 				3C0826D61B3A0849004D22BA /* Main.storyboard */,
 				3C0826D91B3A0849004D22BA /* Images.xcassets */,
 				3C0826DB1B3A0849004D22BA /* LaunchScreen.xib */,
+				3CE254F51B3B0B2B00345C5C /* CloudKitTodo-Swift-Bridging-Header.h */,
+				3CE254F61B3B0B2B00345C5C /* CloudKitTodo-SwiftTests-Bridging-Header.h */,
 				3C0826D01B3A0849004D22BA /* Supporting Files */,
 			);
 			path = "CloudKitTodo-Swift";
@@ -122,6 +134,16 @@
 				3C0826E71B3A0849004D22BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CE254F21B3A181400345C5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CE254F71B3B0B2C00345C5C /* MyDatabaseObject.h */,
+				3CE254F81B3B0B2C00345C5C /* MyDatabaseObject.m */,
+				3CE254F31B3A184B00345C5C /* MyTodo.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		D469A6A265C3E72FCF24B6DF /* Pods */ = {
@@ -344,7 +366,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0826D51B3A0849004D22BA /* ViewController.swift in Sources */,
+				3CE254F41B3A184B00345C5C /* MyTodo.swift in Sources */,
 				3C0826D31B3A0849004D22BA /* AppDelegate.swift in Sources */,
+				3CE254F91B3B0B2C00345C5C /* MyDatabaseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0826E91B3A0849004D22BA /* CloudKitTodo_SwiftTests.swift in Sources */,
+				3CE254FB1B3B0B3A00345C5C /* MyTodo.swift in Sources */,
+				3CE254FA1B3B0B2C00345C5C /* MyDatabaseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,9 +500,12 @@
 			baseConfigurationReference = 8EDB3014C06D4B982575B092 /* Pods-CloudKitTodo-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "CloudKitTodo-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudKitTodo-Swift/CloudKitTodo-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -485,9 +514,11 @@
 			baseConfigurationReference = 637C2A4F5ED6A5F1561C0267 /* Pods-CloudKitTodo-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "CloudKitTodo-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudKitTodo-Swift/CloudKitTodo-Swift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -496,6 +527,7 @@
 			baseConfigurationReference = 0582E4BEB2E7BD34D40F415C /* Pods-CloudKitTodo-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -507,6 +539,8 @@
 				INFOPLIST_FILE = "CloudKitTodo-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudKitTodo-Swift/CloudKitTodo-SwiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKitTodo-Swift.app/CloudKitTodo-Swift";
 			};
 			name = Debug;
@@ -516,6 +550,7 @@
 			baseConfigurationReference = DBE7473F24460A1AAF8C6665 /* Pods-CloudKitTodo-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -523,6 +558,7 @@
 				INFOPLIST_FILE = "CloudKitTodo-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudKitTodo-Swift/CloudKitTodo-SwiftTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKitTodo-Swift.app/CloudKitTodo-Swift";
 			};
 			name = Release;
